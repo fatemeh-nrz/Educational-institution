@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آموزش برنامه نویسی</title>
+    <link rel="stylesheet" href="./a-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- overlay -->
+
+    <!-- top-bar -->
+    <div class="top-bar">
+        <div class="top-bar-row">
+            <div class="top-bar-items">
+                <ul>
+                    <li>تماس باما</li>
+                    <li>درباره ما</li>
+                    <li class="top-bar-item-cart-parent">
+                        <i class="fa fa-shopping-bag shopping-bag"></i>
+                        <span class="item-cart-number"></span>
+                        <div class="shopping-cart-box">
+                            <div class="shopping-cart-items">
+                            </div>
+                            <div class="shopping-cart-total">
+                                <strong></strong>
+                                <a href="#">مشاهده سبد خرید</a>
+                                <a href="#">تسویه حساب</a>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <i class="fa fa-search" id="topBarSearchIcon"></i>
+                    </li>
+
+
+                </ul>
+
+
+
+            </div>
+            <div class="top-bar-items-mobile">
+                <ul>
+                    <li class="top-bar-item-cart-parent">
+                        <i class="fa fa-shopping-bag"></i>
+                        <span class="item-cart-number"></span>
+
+                    </li>
+                    <li>
+                        <i class="fa fa-user"></i>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- top-bar -->
+
+    <!-- global-header -->
+    <header class="global-header">
+
+        <!-- header-logo -->
+        <div class="header-logo">
+            <a href="#"><img src="./assets/images/myLogo.png" alt=""></a>
+        </div>
+        <!-- header-logo -->
+
+        <!-- navigation-menu -->
+        <nav class="header-nav">
+            <ul>
+                <li><a href="">صفحه اصلی</a></li>
+                <li id="courses"><a href="">دوره ها</a><i class="fa fa-angle-down"></i></li>
+
+                <!-- sub-nav -->
+                <div class="sub-nav">
+                    <div class="sub-nav-column right">
+                        <a href="#" class="sub-nav-box" id="sub-nav-box-1">
+                            <div class="sub-nav-icon" id="sub-nav-icon-1">
+                                <i class="fab fa-sellsy icon"></i>
+                            </div>
+                            <h4>دوره های آموزشی</h4>
+                            <p>آموزش جدیدترین زبان ها</p>
+
+                        </a>
+                        <a href="#" class="sub-nav-box" id="sub-nav-box-2">
+                            <div class="sub-nav-icon" id="sub-nav-icon-2">
+                                <i class="fab fa-sellsy icon"></i>
+                            </div>
+                            <h4>دوره های آموزشی</h4>
+                            <p>آموزش جدیدترین زبان ها</p>
+
+                        </a>
+                        <a href="#" class="sub-nav-box" id="sub-nav-box-3">
+                            <div class="sub-nav-icon" id="sub-nav-icon-3">
+                                <i class="fab fa-sellsy icon"></i>
+                            </div>
+                            <h4>دوره های آموزشی</h4>
+                            <p>آموزش جدیدترین زبان ها</p>
+
+                        </a>
+
+                    </div>
+                    <div class="sub-nav-column left">
+                        <a href="#" class="sub-nav-box" id="sub-nav-box-4">
+                            <div class="sub-nav-icon" id="sub-nav-icon-4">
+                                <i class="fab fa-sellsy icon"></i>
+                            </div>
+                            <h4>دوره های آموزشی</h4>
+                            <p>آموزش جدیدترین زبان ها</p>
+
+                        </a>
+                        <a href="#" class="sub-nav-box" id="sub-nav-box-5">
+                            <div class="sub-nav-icon" id="sub-nav-icon-5">
+                                <i class="fab fa-sellsy icon"></i>
+                            </div>
+                            <h4>دوره های آموزشی</h4>
+                            <p>آموزش جدیدترین زبان ها</p>
+
+                        </a>
+                        <a href="#" class="sub-nav-box" id="sub-nav-box-6">
+                            <div class="sub-nav-icon" id="sub-nav-icon-6">
+                                <i class="fab fa-sellsy icon"></i>
+                            </div>
+                            <h4>دوره های آموزشی</h4>
+                            <p>آموزش جدیدترین زبان ها</p>
+
+                        </a>
+
+                    </div>
+                </div>
+                <!-- sub-nav -->
+                <li><a href="#">بلاگ</a></li>
+                <li><a href="#">کانال تلگرام</a></li>
+            </ul>
+
+
+        </nav>
+
+        <!-- navigation-menu -->
+
+        <!-- side-bar-menu -->
+
+
+        <div class="side-bar-menu-icon">
+            <i class="fa fa-times"></i>
+            <i class="fa fa-bars"></i>
+
+
+        </div>
+
+        <!-- side-bar-menu -->
+
+        <!-- header-button -->
+        <div class="header-button">
+            <i class="fas fa-user-lock"></i>
+            <span>ورود و ثبت نام</span>
+
+
+
+        </div>
+        <!-- header-button -->
+
+
+
+
+    </header>
+    <!-- global-header -->
+
+    <!-- header_search_bar -->
+    <div class="header_search_bar">
+        <form action="#" class="header_search_bar_form">
+            <input type="text" value="" name="s" placeholder="جستجودر مطالب،فیلم ،مقاله ....">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+
+        </form>
+
+
+    </div>
+    <!-- header_search_bar -->
+
+    <!-- container -->
+    <div class="container">
+        <div class="global-banner">
+            <div class="global-banner-img">
+                <img src="./assets/images/jspic-1-1536x578.jpg" alt="header-pic">
+
+            </div>
+            <div class="counter-container">
+                <h4>زمان باقی مانده تا شروع دوره</h4>
+                <div class="timer-container">
+                    <div class="day">
+                        <h4>روز</h4>
+                        <span>0</span>
+
+                    </div>
+                    <div class="hour">
+                        <h4>ساعت</h4>
+                        <span>0</span>
+
+                    </div>
+                    <div class="minute">
+                        <h4>دقیقه</h4>
+                        <span>0</span>
+                    </div>
+                    <div class="second">
+                        <h4>ثانیه</h4>
+                        <span>0</span>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+        <!-- container-row -->
+        <div class="container-row">
+            <!-- seprator -->
+            <div class="seprator-container">
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+                <h4>دوره پیشنهادی</h4>
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+
+            </div>
+            <!-- seprator -->
+
+
+            <!-- featured-course-container -->
+            <div class="featured-course-container">
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/879469f5-71fd-4ce3-ac82-ae0c37a31a421322162793665.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی C#</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">4200000</span>
+                    </div>
+                </div>
+                <!-- course -->
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/e9913e87-ec2e-41aa-afe9-1702fc7101cd1252125184262.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی java</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">8000000</span>
+                    </div>
+                </div>
+                <!-- course -->
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/266bfaae-1503-4b7f-9c14-2d356f519b401316211701811.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی ASP.net</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+
+
+
+
+
+            </div>
+            <!-- featured-course-container -->
+
+            <!-- seprator -->
+            <div class="seprator-container">
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+                <h4>جدید ترین دوره ها</h4>
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+
+            </div>
+            <!-- seprator -->
+
+
+            <!-- newest-course-container -->
+            <div class="newest-course-container">
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <a class="add-to-cart" href="#" title="ثبت نام در دوره"><i class="fas fa-user-plus"></i></a>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <a class="add-to-cart" href="#" title="ثبت نام در دوره"><i class="fas fa-user-plus"></i></a>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+
+
+
+
+
+            </div>
+            <!-- newest-course-container -->
+
+            <!-- seprator -->
+            <div class="seprator-container">
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+                <h4>دوره های رایگان</h4>
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+
+            </div>
+            <!-- seprator -->
+
+
+            <!-- free-course-container -->
+            <div class="free-course-container">
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <a class="add-to-cart" href="#" title="ثبت نام در دوره"><i class="fas fa-user-plus"></i></a>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <a class="add-to-cart" href="#" title="ثبت نام در دوره"><i class="fas fa-user-plus"></i></a>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <a class="add-to-cart" href="#" title="ثبت نام در دوره"><i class="fas fa-user-plus"></i></a>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+                <!-- course -->
+
+                <div class="course">
+                    <div class="course-pic">
+                        <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                            alt="دوره آموزشی">
+                        <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                        <a class="add-to-cart" href="#" title="ثبت نام در دوره"><i class="fas fa-user-plus"></i></a>
+                    </div>
+                    <div class="course-title">
+                        <h4>دوره آموزشی React</h4>
+                    </div>
+                    <div class="teacher-box">
+                        <div class="teacher-details">
+                            <a href="#">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>نام مدرس</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="course-price">
+                        <i class="fas fa-users">4096</i>
+                        <span class="amount">رایگان</span>
+                    </div>
+                </div>
+                <!-- course -->
+
+
+
+
+
+            </div>
+            <!-- free-course-container -->
+
+            <!-- seprator -->
+            <div class="seprator-container">
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+                <h4>دوره های تخفیف دار</h4>
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+
+            </div>
+            <!-- seprator -->
+
+            <!-- discount-courses-container -->
+            <div class="discount-courses-container">
+
+                <i class="fa fa-angle-right"></i>
+                <!-- discount-courses-slide-container -->
+                <div class="discount-courses-slide-container">
+
+                    <div class="discount-courses">
+
+
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی React</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">رایگان</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/879469f5-71fd-4ce3-ac82-ae0c37a31a421322162793665.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی C#</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">4200000</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/e9913e87-ec2e-41aa-afe9-1702fc7101cd1252125184262.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی java</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">8000000</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/266bfaae-1503-4b7f-9c14-2d356f519b401316211701811.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی ASP.net</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">رایگان</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/bb13e82c-c702-4ae8-a611-9c391fe95f692029055234250.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی React</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">رایگان</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/879469f5-71fd-4ce3-ac82-ae0c37a31a421322162793665.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی C#</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">4200000</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/e9913e87-ec2e-41aa-afe9-1702fc7101cd1252125184262.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی java</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">8000000</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+                        <!-- course -->
+
+                        <div class="course">
+                            <div class="course-pic">
+                                <img src="https://codeyad.com/assets/images/Courses/266bfaae-1503-4b7f-9c14-2d356f519b401316211701811.jpg"
+                                    alt="دوره آموزشی">
+                                <a class="play-demo" href="#" title="مشاهده ویدئو"><i class="fa fa-play"></i></a>
+                                <i class="fas fa-user-plus add-to-cart" title="ثبت نام در دوره"></i>
+                            </div>
+                            <div class="course-title">
+                                <h4>دوره آموزشی ASP.net</h4>
+                            </div>
+                            <div class="teacher-box">
+                                <div class="teacher-details">
+                                    <a href="#">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>نام مدرس</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="course-price">
+                                <i class="fas fa-users">4096</i>
+                                <span class="amount">رایگان</span>
+                            </div>
+                        </div>
+                        <!-- course -->
+
+                    </div>
+                    <!-- discount-courses -->
+
+                </div>
+                <!-- discount-courses-slide-container -->
+                <i class="fa fa-angle-left"></i>
+
+
+
+
+            </div>
+
+
+            <!-- discount-courses-container -->
+
+            <!-- seprator -->
+            <div class="seprator-container">
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+                <h4>نظرات کاربران</h4>
+                <div class="seprator-holder">
+                    <div class="seprator"></div>
+                </div>
+
+            </div>
+            <!-- seprator -->
+
+            <!-- users-comment -->
+            <div class="user-comments">
+                <!-- user-comments-container -->
+                <div class="user-comments-container">
+                    <div class="comment">
+                        <div class="user-comment-image">
+                            <img src="https://img.freepik.com/free-photo/shot-cute-baby-girl-looking-camera_329181-19580.jpg?size=626&ext=jpg&ga=GA1.1.1164243897.1687178474"
+                                alt="">
+                        </div>
+                        <p>
+
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+                            در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                            افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                            فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+                            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                            پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+
+                        </p>
+
+
+                    </div>
+
+                    <!-- commnet -->
+
+                    <div class="comment">
+                        <div class="user-comment-image">
+                            <img src="https://img.freepik.com/free-photo/shot-cute-baby-girl-looking-camera_329181-19580.jpg?size=626&ext=jpg&ga=GA1.1.1164243897.1687178474"
+                                alt="">
+                        </div>
+                        <p>
+
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+                            در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                            افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                            فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+                            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                            پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+
+                        </p>
+
+
+                    </div>
+
+                    <!-- commnet -->
+                    <div class="comment">
+                        <div class="user-comment-image">
+                            <img src="https://img.freepik.com/free-photo/shot-cute-baby-girl-looking-camera_329181-19580.jpg?size=626&ext=jpg&ga=GA1.1.1164243897.1687178474"
+                                alt="">
+                        </div>
+                        <p>
+
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+                            در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                            افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                            فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+                            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                            پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+
+                        </p>
+
+
+                    </div>
+
+                    <!-- commnet -->
+                     <!-- commnet -->
+                     <div class="comment">
+                        <div class="user-comment-image">
+                            <img src="https://img.freepik.com/free-photo/shot-cute-baby-girl-looking-camera_329181-19580.jpg?size=626&ext=jpg&ga=GA1.1.1164243897.1687178474"
+                                alt="">
+                        </div>
+                        <p>
+
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+                            در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                            افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                            فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+                            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                            پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+
+                        </p>
+
+
+                    </div>
+
+                    <!-- commnet -->
+
+
+
+                </div>
+                <!-- user-comments-container -->
+
+                <div class="dot-container">
+                </div>
+
+            </div>
+
+            <!-- users-comment -->
+          
+
+
+
+
+        </div>
+        <!-- container-row -->
+
+
+    </div>
+    <!-- container -->
+
+    <!-- side-bar-menu-box -->
+    <div class="side-bar-menu-box">
+        <div class="side-bar-container">
+            <ul>
+                <li>
+                    <form method="get" action="#" class="side-bar-search-form">
+                        <input type="text" name="side-bar-search-input" placeholder="کلمه مورد نظر را جستجو کنید...">
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+
+                    </form>
+
+                </li>
+                <li>
+
+                    <div class="off-canvas-cart">
+                        <a href="#" class="cart-icon-link">
+                            <span class="badg-icon">
+                                <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="5 5  128  128"
+                                    style="enable-background:new 0 0 128 128;" xml:space="preserve">
+                                    <path
+                                        d="M93.064,44.523l3.5,58.432H31.437l3.804-58.432h6.239l-0.304,6.543l0,0l-2.587,45.346h51.584l-2.891-45.346
+                                            h-6.848v6.391h-6.543V41.328c0-2.839-0.939-5.174-2.815-7c-1.878-1.826-4.185-2.739-6.924-2.739s-5.048,0.913-6.924,2.739
+                                            c-1.878,1.826-2.815,4.161-2.815,7v3.195h12.934v6.543H54.414v6.391h-6.543V41.328c0-4.565,1.571-8.419,4.717-11.565
+                                            c3.144-3.143,7-4.717,11.565-4.717c4.565,0,8.419,1.574,11.564,4.717c3.144,3.146,4.718,7,4.718,11.565v3.195H93.064z">
+                                    </path>
+                                </svg> -->
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+
+
+
+
+                            </span>
+                            <span class="cart-text">سبد خرید </span>
+                            <span class="studiare-cart-number"></span>
+                        </a>
+                    </div>
+
+
+                </li>
+                <li>صفحه اصلی</li>
+                <li>
+                    <div class="side-bar-courses">
+                        <span>دوره ها</span>
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                    <div class="side-bar-sub-courses">
+                        <ul>
+                            <li>یادگیری دوره ها </li>
+                            <li>یادگیری دوره ها </li>
+                            <li>یادگیری دوره ها </li>
+                            <li>یادگیری دوره ها </li>
+                        </ul>
+
+
+                    </div>
+
+                </li>
+                <li>تالارگفتمان</li>
+                <li>کانال تلگرام</li>
+                <li>بلاگ</li>
+
+
+
+
+            </ul>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+    <!-- side-bar-menu-box -->
+
+
+    <!-- login-modal -->
+
+    <div class="login-modal">
+        <div class="modal-header">
+            <span>ورود</span>
+            <i class="fa fa-times" id="modal-times"></i>
+        </div>
+        <form action="#" class="form" id="form">
+            <div class="form-controll">
+                <label for="username">نام کاربری</label>
+                <input type="text" id="username" name="username" placeholder="example@email.com">
+                <i class="fa fa-check-circle"> </i>
+                <i class="fa fa-exclamation-circle"> </i>
+                <small>پیغام خطا</small>
+
+
+
+            </div>
+            <div class="form-controll">
+                <label for="password">رمز عبور</label>
+                <input type="password" id="password" name="password" placeholder="***">
+                <i class="fa fa-check-circle"> </i>
+                <i class="fa fa-exclamation-circle"> </i>
+                <small></small>
+
+
+
+            </div>
+            <div class="form-controll">
+                <div id="recaptcha-box">
+                    <div class="g-recaptcha " data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                </div>
+                <small></small>
+
+
+            </div>
+            <button>ورود</button>
+
+
+        </form>
+    </div>
+
+    <!-- login-modal -->
+
+    <!-- back-to-top -->
+    <div class="back-to-top">
+        <i class="fa fa-angle-up"></i>
+
+    </div>
+    <!-- back-to-top -->
+
+
+
+
+    <script src="./a-index.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?hl=fa" async defer></script>
+</body>
+
+</html>
